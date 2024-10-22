@@ -1,0 +1,12 @@
+@import "../abstracts/colors";
+.bg-dark {
+    background-color: $clr-black !important;
+}
+.navbar {
+    i {
+        color: $clr-white;
+        &::before {
+            font-size: 1.75em;
+        }
+    }
+}

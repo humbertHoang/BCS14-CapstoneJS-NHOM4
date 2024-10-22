@@ -1,0 +1,15 @@
+@import "../abstracts/mixins";
+.navbar-brand {
+    .logo {
+        @include size(116px, 32px);
+    }
+}
+.nav-link {
+    color: $clr-white;
+}
+
+.nav-underline {
+    .nav-link {
+        color: rgba($color: $clr-black, $alpha: 0.6);
+    }
+}
