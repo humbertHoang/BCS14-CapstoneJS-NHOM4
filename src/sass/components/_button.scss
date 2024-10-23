@@ -1,0 +1,34 @@
+@import "../abstracts/colors";
+.btn-my-primary {
+    --bs-btn-font-weight: 300;
+    --bs-btn-color: #{$clr-white};
+    --bs-btn-bg: #{$clr-primary};
+    --bs-btn-border-color: #{$clr-primary};
+    --bs-btn-hover-color: #{$clr-white};
+    --bs-btn-hover-bg: #{$clr-primary-hover};
+    --bs-btn-hover-border-color: #{$clr-primary-hover};
+    --bs-btn-focus-shadow-rgb: #{$clr-primary};
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{$clr-primary-hover};
+    --bs-btn-active-border-color: #{$clr-primary-hover};
+    --bs-btn-border-radius: 0;
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-padding-y: 0.575rem;
+}
+
+.btn-my-secondary {
+    --bs-btn-font-weight: 500;
+    --bs-btn-color: #{$clr-black};
+    --bs-btn-bg: #{$clr-secondary};
+    --bs-btn-border-color: #{$clr-secondary};
+    --bs-btn-hover-color: #{$clr-black};
+    --bs-btn-hover-bg: #{$clr-secondary-hover};
+    --bs-btn-hover-border-color: #{$clr-secondary-hover};
+    --bs-btn-focus-shadow-rgb: #{$clr-secondary};
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{$clr-secondary-hover};
+    --bs-btn-active-border-color: #{$clr-secondary-hover};
+    --bs-btn-border-radius: 0;
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-padding-y: 0.575rem;
+}

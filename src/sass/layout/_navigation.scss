@@ -5,7 +5,13 @@
     }
 }
 .nav-link {
-    color: $clr-white;
+    color: rgba($color: $clr-white, $alpha: 0.6);
+    &.active {
+        color: $clr-white;
+    }
+    &:hover {
+        color: $clr-white;
+    }
 }
 
 .nav-underline {
