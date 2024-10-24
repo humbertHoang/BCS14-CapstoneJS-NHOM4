@@ -4,16 +4,6 @@
         @include size(116px, 32px);
     }
 }
-.nav-link {
-    color: rgba($color: $clr-white, $alpha: 0.6);
-    &.active {
-        color: $clr-white;
-    }
-    &:hover {
-        color: $clr-white;
-    }
-}
-
 .nav-underline {
     .nav-link {
         color: rgba($color: $clr-black, $alpha: 0.6);

@@ -2,14 +2,26 @@
 .bg-dark {
     background-color: $clr-black !important;
 }
-.navbar {
-    i {
-        color: rgba($color: $clr-white, $alpha: 0.6);
-        &::before {
-            font-size: 1.75em;
+header {
+    .navbar-nav {
+        .nav-link {
+            color: rgba($color: $clr-white, $alpha: 0.6);
+            &.active {
+                color: $clr-white;
+            }
+            &:hover {
+                color: $clr-white;
+            }
         }
-        &:hover {
-            color: $clr-white;
+
+        i {
+            color: rgba($color: $clr-white, $alpha: 0.6);
+            &::before {
+                font-size: 1.75em;
+            }
+            &:hover {
+                color: $clr-white;
+            }
         }
     }
 }

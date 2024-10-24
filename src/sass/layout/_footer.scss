@@ -1,0 +1,32 @@
+@import "../abstracts/colors";
+@import "../abstracts/breakpoint";
+footer {
+    a {
+        text-decoration: none;
+        color: $clr-red;
+        &:hover,
+        &:focus,
+        &:active {
+            color: rgba($clr-red, 0.7);
+        }
+    }
+
+    .row:nth-child(2) {
+        background-color: $clr-gray;
+    }
+}
+
+@media (max-width: map-get($grid-breakpoints, "md")) {
+    footer {
+        .col {
+            &::after {
+                content: "";
+                display: block;
+                margin: 0 auto;
+                width: 75%;
+                border-bottom: 1px solid $clr-black;
+                padding-top: 1rem;
+            }
+        }
+    }
+}
