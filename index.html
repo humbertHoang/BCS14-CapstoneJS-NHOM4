@@ -91,8 +91,8 @@
         <section>
             <div class="container">
                 <h1 class="text-center">- Product Feature -</h1>
-                <div class="row row-cols-1 row-cols-md-3 row-gap-5 pt-5">
-                    <div class="col d-flex justify-content-center">
+                <div id="featured-products" class="row row-cols-1 row-cols-md-3 row-gap-5 pt-5">
+                    <!-- <div class="col d-flex justify-content-center">
                         <div class="card shadow-sm h-100">
                             <img src="./src/assets/img/card-test.png" class="card-img-top d-block w-75 mx-auto"
                                 alt="...">
@@ -181,7 +181,7 @@
                                 <button href="#" class="btn btn-my-secondary btn-lg flex-fill">$85</button>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -231,17 +231,18 @@
                     <a href="#">Search</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col text-center py-4">
-                    Copyright &copy; 2022 All rights reserved.
-                </div>
+            <div class="text-center py-4">
+                Copyright &copy; 2022 All rights reserved.
             </div>
+        </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script type="module" src="/src/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/src/controller/main.js"></script>
+
 </body>
 
 </html>

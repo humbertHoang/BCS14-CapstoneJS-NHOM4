@@ -9,7 +9,6 @@
   - **`view/`**: Contains the user interface templates.
   - **`css/`**: Contains CSS files.
     - **`style.scss`**: Main SCSS file.
-  - **`img/`**: Contains image assets.
   - **`sass/`**: Contains SCSS files organized into different directories.
 
 ## License
