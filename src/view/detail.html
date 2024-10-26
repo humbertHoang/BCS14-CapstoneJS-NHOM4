@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>My Shoes Shop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <nav class="navbar bg-dark border-bottom border-body mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img class="logo" src="/src/assets/img/logo.png" alt="Logo">
+                </a>
+                <div class="navbar-nav flex-row gap-3">
+                    <a class="nav-link active position-relative" href="#"><i class="bi bi-cart4"></i><span
+                            class="position-absolute top-0 translate-middle-x badge rounded-pill bg-secondary">4</a>
+                    <a class="nav-link" href="/">Login</a>
+                    <a class="nav-link" href="/register.html">Register</a>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav nav-underline mb-3">
+            <div class="container d-flex gap-4 fs-5">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">Men</a>
+                <a class="nav-link" href="#">Woman</a>
+                <a class="nav-link" href="#">Kid</a>
+                <a class="nav-link" href="#">Sport</a>
+            </div>
+        </nav>
+    </header>
+    <main class="mt-5 py-5">
+        <section id="detail-product">
+        </section>
+        <section class="mt-5 py-5">
+            <div class="container">
+                <h1 class="text-center">- Related products -</h1>
+                <div id="related-products" class="row row-cols-1 row-cols-md-3 row-gap-5 pt-5">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-md-5">
+        <div class="container-fluid">
+            <div
+                class="row row-cols-1 row-cols-md-3 row-gap-4 row-gap-md-0 justify-content-center py-5 bg-light-subtle">
+                <div class="col border-end col-md-3">
+                    <h5 class="text-uppercase fw-bold">Get Help</h5>
+                    <nav class="nav flex-column gap-1">
+                        <a class="nav-link p-0 text-dark" href="#">Contact us</a>
+                        <a class="nav-link p-0 text-dark" href="#">Shopping</a>
+                        <a class="nav-link p-0 text-dark" href="#">NIKEiD</a>
+                        <a class="nav-link p-0 text-dark" href="#">Nike+</a>
+                    </nav>
+                </div>
+                <div class="col border-end col-md-3">
+                    <h5 class="text-uppercase fw-bold">Orders</h5>
+                    <nav class="nav flex-column gap-1">
+                        <a class="nav-link p-0 text-dark" href="#">Payment options</a>
+                        <a class="nav-link p-0 text-dark" href="#">Shipping and delivery</a>
+                        <a class="nav-link p-0 text-dark" href="#">Returns</a>
+                    </nav>
+                </div>
+                <div class="col col-md-3">
+                    <h5 class="text-uppercase fw-bold">Register</h5>
+                    <p>Create one account to mangage everything you do with Nike, from your shopping preferences to your
+                        Nike+ activity</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 row-gap-4 row-gap-md-0 justify-content-center py-5">
+                <div class="col border-end col-md-3">
+                    <h5 class="text-uppercase fw-bold">Email Sign Up</h5>
+                    <p>Be the first to know about new products and speicial offers</p>
+                    <a href="#">Sign up now</a>
+                </div>
+                <div class="col border-end col-md-3">
+                    <h5 class="text-uppercase fw-bold">Gift Card</h5>
+                    <p>Give the grift that always fits</p>
+                    <a href="#">View cards</a>
+                </div>
+                <div class="col col-md-3">
+                    <h5 class="text-uppercase fw-bold">Stores Near You</h5>
+                    <p>Locate a Nike retail store or authorized retailer</p>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="text-center py-4">
+                Copyright &copy; 2022 All rights reserved.
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="/src/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/src/controller/detail.js"></script>
+
+</body>
+
+</html>

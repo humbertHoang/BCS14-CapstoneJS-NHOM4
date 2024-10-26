@@ -1,0 +1,9 @@
+@import "../abstracts/colors";
+#detail-product {
+    h2 {
+        color: $clr-green;
+    }
+    h3 {
+        color: $clr-h3-red;
+    }
+}

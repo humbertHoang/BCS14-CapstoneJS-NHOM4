@@ -10,7 +10,7 @@ class ProductService {
   getProductById = (id) => {
     return axios({
       method: "get",
-      url: `https://shop.cyberlearn.vn/api/Product/${id}`,
+      url: `https://shop.cyberlearn.vn/api/Product/getbyid?id=${id}`,
     });
   };
 }

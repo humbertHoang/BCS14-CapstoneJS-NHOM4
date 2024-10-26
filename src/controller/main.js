@@ -1,4 +1,3 @@
-// import { initRouter } from "./router.js";
 import Product from "../model/Product.js";
 import ProductService from "../service/ProductService.js";
 
@@ -25,8 +24,8 @@ function displayFeaturedProducts(products) {
               <p class="card-text fw-light text-black-50">${products[i].shortDescription}</p>
             </div>
             <div class="d-flex align-content-center justify-content-center">
-              <button href="#" class="btn btn-my-primary btn-lg flex-fill text-dark">Buy Now</button>
-              <button href="#" class="btn btn-my-secondary btn-lg flex-fill">$${products[i].price}</button>
+              <a href="/src/view/detail.html?productID=${products[i].id}" class="btn btn-my-primary btn-lg flex-fill text-dark">Buy Now</a>
+              <a href="#" class="btn btn-my-secondary btn-lg flex-fill">$${products[i].price}</a>
             </div>
         </div>
       </div>
@@ -35,7 +34,4 @@ function displayFeaturedProducts(products) {
   document.getElementById("featured-products").innerHTML = html;
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  // initRouter();
-  fetchFeaturedProducts();
-});
+fetchFeaturedProducts();

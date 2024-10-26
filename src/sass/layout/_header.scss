@@ -1,6 +1,6 @@
 @import "../abstracts/colors";
 .bg-dark {
-    background-color: $clr-black !important;
+    --bs-dark-rgb: 0, 0, 0;
 }
 header {
     .navbar-nav {
